@@ -1,0 +1,127 @@
+.ProductDetails {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.Producttag {
+  margin-top: 4.4rem;
+  color: #101750;
+  font-size: 36px;
+  line-height: 155%;
+  font-weight: bold;
+}
+.Palywood {
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 20%);
+  background: #f6f7fb;
+  justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 8rem;
+}
+
+.Pcard {
+  margin: 0 20px;
+}
+.Pcard-body {
+  margin-top: 1.5rem;
+}
+.Pcard-title {
+  color: #0d134e;
+  font-size: 36px;
+  font-weight: 60px;
+}
+.Pcard-img-top {
+  float: right;
+}
+.PBcard-body {
+  margin-top: 0.6rem;
+  justify-content: right;
+  display: flex;
+}
+
+.paras {
+  color: #151875;
+  font-weight: 50px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.addbtn {
+  border: none;
+  border-radius: 3px;
+  background: #fb2e86;
+  color: white;
+  width: 7rem;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.addbtnn {
+  border: none;
+  background: transparent;
+}
+
+.topnav {
+  color: #151875;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+.topnav:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  color: #151875;
+  font-size: 22px;
+}
+.detail {
+  color: #a9acc6;
+  font-size: 16px;
+}
+.Rcard-img-top {
+  height: 19.5rem;
+  width: 16.5rem;
+}
+
+.Rcard-title {
+  color: #151875;
+  font-size: 16px;
+  margin-top: 0.4rem;
+}
+
+.Rcard-body {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  margin-top: 0.2rem;
+  height: 1rem;
+  width: 4rem;
+}
+.Rcard-text {
+  color: #151875;
+  font-size: 13px;
+}
+.BTcontainer {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 7rem;
+}
+.PDcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  width: 100%;
+}
+.PDtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}

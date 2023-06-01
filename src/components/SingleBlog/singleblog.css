@@ -1,0 +1,370 @@
+.SingleBlog {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.child {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+/* Left */
+.child-sec1 {
+  /* background-color: chartreuse; */
+  height: 100%;
+  width: 73%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.child-sec1-img {
+  background: url("../logo/singleblog-img.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.child-sec1-ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+}
+.child-sec1-li-sa {
+  width: 160px;
+  text-align: center;
+  background: #ffe7f9;
+  border-radius: 2px;
+  margin-right: 2rem;
+}
+.child-sec1-li-date {
+  width: 160px;
+  text-align: center;
+  background: #ffece2;
+  border-radius: 2px;
+}
+.child-sec1-h2 {
+  width: 100%;
+}
+.sec1-h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #151875;
+  margin-bottom: 2rem;
+}
+.sec1-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+  margin-bottom: 2.5rem;
+}
+
+.child-sec1-notes {
+  display: flex;
+  height: 50%;
+  margin-bottom: 2rem;
+}
+.notes-line {
+  height: 100px;
+}
+.sec1-notes {
+  justify-content: center;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #969cb4;
+  padding: 1rem;
+  /* margin-top: 1.5rem; */
+}
+.child-sec1-vdo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.sec1-vdo-vdo1 {
+  width: 100%;
+}
+.child-sec1-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Imgs-sec-card {
+  width: 25%;
+}
+.card-img-top {
+  width: 100%;
+  height: 70%;
+}
+.sec1-price {
+  font-size: 13.8925px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #232a69;
+  margin-right: 0.8rem;
+  margin: 0 7px;
+  width: 100%;
+}
+.sec1-pricecut {
+  font-size: 13.8925px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  color: #ff38b0;
+  width: 100%;
+}
+.sec1-star {
+  margin-top: -0.5rem;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+.img-heading {
+  font-size: 19.681px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000000;
+}
+.child-sec2-prenext {
+  width: 100%;
+}
+.prevnext {
+  margin-top: 3rem;
+  width: 100%;
+}
+.child-Sec1-card {
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 20%);
+  background: #f6f7fb;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.child-sec1-card-body {
+  text-align: left;
+  margin-top: 0.8rem;
+}
+
+.SB-card-title {
+  font-size: 25.1374px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #363385;
+  display: flex;
+  justify-content: left;
+  margin-left: 1rem;
+}
+.card-title-date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.4695px;
+  line-height: 15px;
+  color: #a3a2b6;
+  margin-top: 0.4rem;
+  margin-left: 5rem;
+}
+.card-title-datee {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.4695px;
+  line-height: 15px;
+  color: #a3a2b6;
+  margin-top: 0.4rem;
+  margin-left: 3rem;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.4695px;
+  line-height: 25px;
+  color: #a3a2b6;
+}
+
+.child-sec1-form {
+  margin-top: 5rem;
+  margin-left: -1%;
+  width: 90%;
+}
+.child-sec1-form-control {
+  width: 93%;
+  height: 42.71px;
+  margin-bottom: 1rem;
+  border: 1.12382px solid #8a8fb9;
+  background-color: none;
+}
+.col-lg-6 {
+  width: 100%;
+}
+.child-Sec1-form-control {
+  margin-top: 1rem;
+  width: 96.7%;
+  height: 205.66px;
+  border: 1.12382px solid #8a8fb9;
+}
+.sec1-icon {
+  float: over;
+}
+.form-check {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.form-check-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4859px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #8a91ab;
+}
+.child-sec1-btn {
+  margin-top: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Child-shopbtn {
+  width: 700.89px;
+  height: 49.45px;
+  color: white;
+  background: #fb2e86;
+  border-radius: 2.24765px;
+}
+
+/* Right */
+
+.child-sec2 {
+  /* background-color: slategray; */
+  padding-left: 1rem;
+  height: 100%;
+  width: 27%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sec2-searchbox {
+  margin-top: 0.5rem;
+  left: 1rem;
+}
+.form-control {
+  width: 280px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #bdbdd8;
+  border-radius: 2px;
+}
+.child-sec2-categories {
+  margin-top: 1.5rem;
+}
+.sec2-categories-btn {
+  padding: 0.5rem;
+}
+.child-shpbtn {
+  width: 120px;
+  height: 35px;
+  margin: 3px 5px 10px;
+  color: #3f509e;
+  border: none;
+  background: white;
+  border-radius: 3px;
+}
+.child-shpbtn:hover {
+  color: white;
+
+  background: #fb2e86;
+}
+
+.Pinkchild-shpbtn {
+  width: 120px;
+  height: 35px;
+  margin: 3px 5px 10px;
+  color: white;
+  border: none;
+  background: #fb2e86;
+  border-radius: 3px;
+}
+
+.child-sec2-RecentPost {
+  margin-top: 1.5rem;
+}
+.child-sec2-SaleProduct {
+  margin-top: 1.5rem;
+}
+.Post-img {
+  width: 80%;
+  margin: 0 10px 20px;
+}
+.sec2-SalePost {
+  padding: 0.8rem;
+}
+.child-sec2-OfferProduct {
+  margin: 0 5px;
+  margin-top: 2rem;
+}
+.Offer-img {
+  margin: 0 7px 20px;
+}
+.follow {
+  padding: 1rem;
+}
+
+.child-sec2-tag {
+  width: 100%;
+}
+.child-sec2-follow {
+  margin-top: 1.5rem;
+}
+.child-sec2-tag {
+  margin-top: 1.5rem;
+}
+.sec2-tag {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.tags-list {
+  list-style: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #151875;
+  margin: 0 20px 20px;
+}
+.tags-list:hover {
+  color: #fb2e86;
+}
+
+.sec2-headings {
+  font-size: 22px;
+  line-height: 26px;
+  color: #151875;
+}
+
+.SBcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.SBtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}

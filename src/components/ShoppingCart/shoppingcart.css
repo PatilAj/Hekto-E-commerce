@@ -1,0 +1,268 @@
+.Cart {
+  /* background-color: blanchedalmond; */
+  margin-bottom: 15rem;
+}
+
+.cart {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  gap: 0.6rem;
+}
+.cart_child_sec1 {
+  /* background-color: chartreuse; */
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.cart-tags {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.cart_child_sec2 {
+  /* background-color: slategray; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.child_sec2_total {
+  background-image: url("../logo/Rectangle46.png");
+  height: 100%;
+  width: 100%;
+  padding-inline: 2rem;
+  padding-top: 3rem;
+  border-radius: 3px;
+  margin-top: 1.5rem;
+}
+.child_sec2_total_totals {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dandi {
+  width: 100%;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.RGreen {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5rem;
+}
+.ticktext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8a91ab;
+}
+.Checkoutbtn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  background: #19d16f;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.cal {
+  font-size: 20px;
+  line-height: 23px;
+  color: #1d3178;
+  text-align: center;
+  width: 80%;
+}
+.calculate {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  width: 100%;
+}
+.address {
+  background-color: #f4f4fc;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  padding-inline-start: 2rem;
+}
+.country {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 2rem;
+  height: 100%;
+  width: 80%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #c7cee4;
+  transition: none;
+}
+.Countinuebtn {
+  width: 60%;
+  height: 40px;
+  color: white;
+  background: #fb2e86;
+  border-radius: 2px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/*  */
+.SCartdiv {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.Cartgrid1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CartItem {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 2px solid #e1e1e4;
+  height: 100%;
+}
+
+.Cartimg {
+  width: 100%;
+  height: 95%;
+  align-items: center;
+}
+
+.SCarthead1,
+.SCarthead2,
+.SCarthead3,
+.SCarthead4 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+  color: #1d3178;
+  width: 100%;
+  /* grid-column: auto; */
+}
+.SCarthead1 {
+  padding-left: 10%;
+}
+
+.SCarthead2 {
+  padding-left: 12%;
+}
+/* .SCarthead3 {
+  margin-left: 1%;
+} */
+/* .SCarthead4 {
+  margin-left: 5%;
+}
+.SCarthead5 {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+  color: #1d3178;
+}
+*/
+.Carttxt1 {
+  padding-top: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.Carttxt2 {
+  font-size: 14px;
+  line-height: 2px;
+  color: #a1a8c1;
+  margin-top: 6px;
+}
+.Carttxt3 {
+  font-size: 14px;
+  line-height: 2px;
+  color: #a1a8c1;
+  margin-top: 6px;
+}
+
+.Cartprice {
+  justify-items: center;
+  line-height: 16px;
+  color: #15245e;
+}
+.CartQty {
+  margin-top: 44px;
+  margin-left: 15px;
+}
+.Carttotal {
+  font-size: 14px;
+  line-height: 16px;
+  color: #15245e;
+  /* margin-top: 44px; */
+  /* margin-left: 61px; */
+}
+.TwoButton {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Updatebtn {
+  width: 20%;
+  height: 40px;
+  color: white;
+  background: #fb2e86;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+.count-buttons {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2d2d5;
+  border: none;
+}
+.quantity-img-count {
+  width: 30%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+
+  background-color: #f0eff2;
+  height: 18px;
+  margin-left: 3rem;
+}
+.counter-span {
+  font-size: small;
+  height: 100%;
+}
+@media (max-width: 780px) {
+  .cart {
+    flex-direction: column;
+  }
+  .cart {
+    width: 100% !important;
+  }
+  .cart_child_sec1 {
+    width: 100% !important;
+  }
+  .cart_child_sec2 {
+    width: 100% !important;
+  }
+}

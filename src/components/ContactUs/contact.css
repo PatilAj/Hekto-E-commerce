@@ -1,0 +1,76 @@
+.ContactUs {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.lorelText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+.info {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 36px;
+  line-height: 48px;
+  color: #151875;
+  font-weight: 600;
+}
+
+.Elpse {
+  width: 45px;
+  height: 45px;
+  margin-right: 1rem;
+}
+.tel-email {
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.group94 {
+  margin-top: 2rem;
+  width: 103px;
+  height: 25px;
+}
+
+.form-control-id {
+  justify-content: space-between;
+  width: 255px;
+  height: 45px;
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  border-radius: 3px;
+}
+
+.form-control-text {
+  width: 100%;
+  height: 166px;
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  border-radius: 3px;
+  text-align: initial;
+}
+
+.form-control-subject {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  border-radius: 3px;
+}
+
+.mail {
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  background: #fb2e86;
+  border-radius: 3px;
+  width: 157px;
+  height: 44px;
+  border: none;
+}

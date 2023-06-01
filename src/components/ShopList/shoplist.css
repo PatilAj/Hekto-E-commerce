@@ -1,0 +1,111 @@
+.Bgimg {
+  background-image: url(../logo/BgShopGrid.png);
+  width: 100%;
+}
+.Gridtag {
+  margin-top: 4.4rem;
+  color: #101750;
+  font-size: 36px;
+  line-height: 155%;
+  font-weight: bold;
+}
+
+/* .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+} */
+.card {
+  padding-inline: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
+.img {
+  /* padding-left: 4rem;
+  padding-top: 1.6rem; */
+  padding: 1rem;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-title {
+  margin-right: 2rem;
+  font-size: 20.8783px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #111c85;
+}
+
+.more-dots {
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  width: 3rem;
+  height: 0.8rem;
+}
+.text-muted {
+  display: flex;
+}
+.price26 {
+  font-size: 15.4609px;
+  line-height: 18px;
+  color: #111c85;
+  margin: 0 15px;
+}
+.price52 {
+  font-size: 15.4609px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #ff2aaa;
+}
+.card-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 31px;
+  color: #9295aa;
+  margin: 0 15px 25px;
+}
+.card-smallImg {
+  display: flex;
+  width: 25.23px;
+  height: 25.23px;
+  color: #535399;
+  box-shadow: 0px 0px 27.6087px rgba(0, 0, 0, 0.05);
+  margin: 0 15px;
+  gap: 2rem;
+}
+.SLcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.SLtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
+
+@media (max-width: 1300px) and (min-width: 768px) {
+  .col-md-8 {
+    flex: 0 0 auto !important;
+    width: 67.666667% !important;
+  }
+  .col-lg-8 {
+    width: 70%;
+  }
+}
+@media (max-width: 400px) and (min-width: 290px) {
+  .card {
+    margin-left: 0rem !important;
+  }
+}

@@ -1,0 +1,84 @@
+.About {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.contactus {
+  margin-top: 2.2rem;
+  color: white;
+  font-size: 15px;
+  background-color: #fb2e86;
+  height: 44px;
+  width: 145px;
+  border: none;
+  border-radius: 1px;
+}
+
+.heading1 {
+  line-height: 48px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151875;
+}
+.loremtext {
+  margin-top: 1rem;
+  color: #8a8fb9;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.ourcard-img-top {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  height: 65px;
+  width: 65px;
+}
+.ourcard-title {
+  text-align: center;
+  font-size: 25px;
+  color: #151875;
+}
+.ourcard-text {
+  text-align: center;
+  color: rgba(26, 11, 91, 0.3);
+}
+.ourcard {
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+  margin: 0 5px;
+}
+.Ourcard {
+  border: none;
+  border-bottom: 2px solid #ff9100;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+  margin: 0 5px;
+}
+
+.heading2 {
+  padding: 2rem;
+  text-align: center;
+  color: #000000;
+  font-size: 42px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.heading3 {
+  color: #151875;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.BTcontainer {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 7rem;
+}

@@ -1,0 +1,954 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "4e551f7e-647f-42b7-9dd6-1ee10a61da38",
+            "name": "ecommerceProject",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "updatedAt": "2022-12-05T09:19:13.000Z"
+        },
+        "item": [
+            {
+                "name": "ProtectsRoutes",
+                "item": [
+                    {
+                        "name": "getUsers",
+                        "id": "d775ae5f-487e-49f6-b2ab-185ba53787cb",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg2ZTliY2U5YjBiMGQwZTY3ZDEwMGQiLCJpYXQiOjE2Njk4ODY1MzIsImV4cCI6MTY2OTg4NjgzMn0.XmSKneXPve04RxwA-G09ED14p4zN8t_YGM2lp5cOvB8",
+                                    "type": "text"
+                                }
+                            ],
+                            "url": {
+                                "raw": "localhost:3000/v1/user/getAlluser",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "getAlluser"
+                                ]
+                            }
+                        },
+                        "response": []
+                    }
+                ],
+                "id": "9fc3cc4f-f3d0-4c97-9d6e-4aa293f2e48e"
+            },
+            {
+                "name": "user",
+                "item": [
+                    {
+                        "name": "createUser",
+                        "id": "ab0cac58-a729-4e34-8346-43987f99d247",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"fullName\":\"shriharu\",\r\n    \"email\":\"shiriharu@gmail.com\",\r\n    \"passwords\":\"shriharu123\",\r\n    \"role\":1,\r\n    \"status\":1\r\n   \r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/user/create",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "create"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "getUserById",
+                        "id": "3f0ce265-3534-4349-a1e3-9e236e82f73e",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [],
+                            "url": {
+                                "raw": "localhost:3000/v1/user/getUser/6388785255bf14addcb6fbb8",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "getUser",
+                                    "6388785255bf14addcb6fbb8"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "updateUserById",
+                        "id": "87141ae6-6075-4199-afd8-c70b85642da5",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "PUT",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"fullName\":\"upderdName\",\r\n    \"role\":1\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/user/updateUser/6386e9bce9b0b0d0e67d100d",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "updateUser",
+                                    "6386e9bce9b0b0d0e67d100d"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "deleteUserByID",
+                        "id": "de3eb485-a511-4188-ae76-5143dc3d87fa",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "DELETE",
+                            "header": [],
+                            "url": {
+                                "raw": "localhost:3000/v1/user/deleteUser/6386e9bce9b0b0d0e67d100d",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "deleteUser",
+                                    "6386e9bce9b0b0d0e67d100d"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "loginUser",
+                        "id": "16e89c0a-c008-4f3b-9515-0f8213dd01f6",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{  \"email\":\"sheer@gmail.com\",\r\n    \"password\":\"shriharu123\"\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "https://api-ecommerce-dev.devtomaster.com/v1/user/login",
+                                "protocol": "https",
+                                "host": [
+                                    "api-ecommerce-dev",
+                                    "devtomaster",
+                                    "com"
+                                ],
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "login"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "generateAccessToken",
+                        "id": "0b39964e-ebdf-4f4e-a0ec-34163e0a8471",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg2ZTliY2U5YjBiMGQwZTY3ZDEwMGQiLCJpYXQiOjE2Njk3ODYxNDgsImV4cCI6MTY2OTc4NjQ0OH0.a4H_Rii9IFoq1_4_LliFANCiOvnMJceLnxFe0jlj2m4",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg2ZTliY2U5YjBiMGQwZTY3ZDEwMGQiLCJpYXQiOjE2Njk3ODYxNDgsImV4cCI6MTY5NTcwNjE0OH0.dzBIrH9arQgv97eQXi4oSz7cff2NEDKFF7D3VF52_Yc\"\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/user/generateAccessToken",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "user",
+                                    "generateAccessToken"
+                                ]
+                            }
+                        },
+                        "response": []
+                    }
+                ],
+                "id": "344cc818-7780-4636-8d03-926f88e4c982"
+            },
+            {
+                "name": "Product",
+                "item": [
+                    {
+                        "name": "createProduct",
+                        "id": "ada9f49b-cbd3-412b-bd35-aaff96ee24e2",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0NzU1MDQsImV4cCI6MTY3MDQ3NTgwNH0.r8TdZbI-XNy5yFIy02o6bPMkaZ1nXRn-YfqucEY2oHo",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "formdata",
+                                "formdata": [
+                                    {
+                                        "key": "productName",
+                                        "value": "yvb\n",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "price",
+                                        "value": "500",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "description",
+                                        "value": "This is shoes of swipe company",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "offer",
+                                        "value": "40",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "category",
+                                        "value": "63894963fd777c4bf53f5ae3",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "status",
+                                        "value": "ACTIVE",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "pictures",
+                                        "type": "file",
+                                        "src": [
+                                            "/D:/back.jpg",
+                                            "/D:/istockphoto-1226478926-612x612.jpg"
+                                        ]
+                                    },
+                                    {
+                                        "key": "stock",
+                                        "type": "text",
+                                        "value": "10"
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/product/addProduct",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "product",
+                                    "addProduct"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "getProduct",
+                        "id": "45b155dd-bbf0-4083-b1e4-f72070cf7dd5",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk4OTA5OTksImV4cCI6MTY2OTg5MTI5OX0.i6MvYhUT_D6HBqS5RmMRBfhpFjgPhEE8c-06aCiW_dU",
+                                    "type": "text",
+                                    "disabled": true
+                                }
+                            ],
+                            "url": {
+                                "raw": "localhost:3000/v1/product/getProduct/6389865068389cd7f22d4897",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "product",
+                                    "getProduct",
+                                    "6389865068389cd7f22d4897"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "editProduct",
+                        "id": "eb90e9f5-1618-41d9-bcf9-46485bd90195",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "PUT",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk5NTcxODMsImV4cCI6MTY2OTk1NzQ4M30.9BeTaTkpLeGWtCsPS3SJXyV318ChyPxco5MmbeMNjnM",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "formdata",
+                                "formdata": [
+                                    {
+                                        "key": "pictures",
+                                        "type": "file",
+                                        "src": "/D:/istockphoto-1226478926-612x612.jpg"
+                                    },
+                                    {
+                                        "key": "productName",
+                                        "value": "updated Product example jdsj",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "price",
+                                        "value": "5000",
+                                        "type": "text",
+                                        "disabled": true
+                                    },
+                                    {
+                                        "key": "description",
+                                        "value": "this is updated description",
+                                        "type": "text",
+                                        "disabled": true
+                                    },
+                                    {
+                                        "key": "offer",
+                                        "value": "40",
+                                        "type": "text",
+                                        "disabled": true
+                                    },
+                                    {
+                                        "key": "category",
+                                        "value": "63894963fd777c4bf53f5ae3",
+                                        "type": "text",
+                                        "disabled": true
+                                    },
+                                    {
+                                        "key": "status",
+                                        "value": "ACTIVE",
+                                        "type": "text",
+                                        "disabled": true
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/product/updateProduct/6389865068389cd7f22d4897",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "product",
+                                    "updateProduct",
+                                    "6389865068389cd7f22d4897"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "deleteProduct",
+                        "id": "86a8cee2-0d92-4989-80ef-f406d77fd678",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "DELETE",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk5NTcxODMsImV4cCI6MTY2OTk1NzQ4M30.9BeTaTkpLeGWtCsPS3SJXyV318ChyPxco5MmbeMNjnM",
+                                    "type": "text"
+                                }
+                            ],
+                            "url": {
+                                "raw": "localhost:3000/v1/product/deleteProduct/63894ad7fd777c4bf53f5b1a",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "product",
+                                    "deleteProduct",
+                                    "63894ad7fd777c4bf53f5b1a"
+                                ],
+                                "query": [
+                                    {
+                                        "key": "",
+                                        "value": null,
+                                        "type": "text",
+                                        "disabled": true
+                                    }
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "getCategoryWiseProducts",
+                        "id": "cc6a13d8-c8b2-4fa3-b208-7ff24744fbc5",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk4OTI2MTYsImV4cCI6MTY2OTg5MjkxNn0.hRGsZRSMEXFHIInzs7sblp9iONjw-AS8Rrp7vFSY1Tg",
+                                    "type": "text",
+                                    "disabled": true
+                                }
+                            ],
+                            "url": {
+                                "raw": "localhost:3000/v1/product/getProducts",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "product",
+                                    "getProducts"
+                                ],
+                                "query": [
+                                    {
+                                        "key": "category",
+                                        "value": "lapTOPs",
+                                        "disabled": true
+                                    }
+                                ]
+                            }
+                        },
+                        "response": []
+                    }
+                ],
+                "id": "712f63f7-b13d-4e1c-8ecb-7cdfbbe803a9"
+            },
+            {
+                "name": "Category",
+                "item": [
+                    {
+                        "name": "addCategory",
+                        "id": "63ae1ed2-d75a-4aaf-acd4-6070e61620b6",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk5NTczNDMsImV4cCI6MTY2OTk1NzY0M30.5HzAo4p5f33gCCj11Fmev8bGuoOjBSaZ4Kj19VTzIWM",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "formdata",
+                                "formdata": [
+                                    {
+                                        "key": "images",
+                                        "type": "file",
+                                        "src": "/D:/MernProjects/ImageCrud/backend/Screenshot (113).png"
+                                    },
+                                    {
+                                        "key": "catName",
+                                        "value": "dresses",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "description",
+                                        "value": "\"This is categories is for shoes\"",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "status",
+                                        "value": "ACTIVE",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "images",
+                                        "type": "file",
+                                        "src": "/D:/MernProjects/ImageCrud/backend/Screenshot (113).png"
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/category/addCategory",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "category",
+                                    "addCategory"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "getAllCategories",
+                        "id": "53dd18e6-4e35-4408-b9c3-726e77733925",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [],
+                            "url": {
+                                "raw": "localhost:3000/v1/category/getCategories",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "category",
+                                    "getCategories"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "getCategory",
+                        "id": "a1f80828-f8ef-43cd-a04a-92062c919627",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "GET",
+                            "header": [],
+                            "url": {
+                                "raw": "localhost:3000/v1/category/getCategory/638986f468389cd7f22d48dd",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "category",
+                                    "getCategory",
+                                    "638986f468389cd7f22d48dd"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "deleteCategory",
+                        "id": "91d8c3d8-ab9e-401a-93e0-6375c1f03bb9",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "DELETE",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk5NTczNDMsImV4cCI6MTY2OTk1NzY0M30.5HzAo4p5f33gCCj11Fmev8bGuoOjBSaZ4Kj19VTzIWM",
+                                    "type": "text"
+                                }
+                            ],
+                            "url": {
+                                "raw": "localhost:3000/v1/category/deleteCategory/6389569dfd41f2611f1426a3",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "category",
+                                    "deleteCategory",
+                                    "6389569dfd41f2611f1426a3"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "uodateCategory",
+                        "id": "111e1845-b379-40c1-ac59-818f8e239532",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "PUT",
+                            "header": [
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Mzg4Nzg1MjU1YmYxNGFkZGNiNmZiYjgiLCJpYXQiOjE2Njk5NTczNDMsImV4cCI6MTY2OTk1NzY0M30.5HzAo4p5f33gCCj11Fmev8bGuoOjBSaZ4Kj19VTzIWM",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "formdata",
+                                "formdata": [
+                                    {
+                                        "key": "catName",
+                                        "value": "shoes",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "status",
+                                        "value": "INACTIVE",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "description",
+                                        "value": "this is updated category",
+                                        "type": "text",
+                                        "disabled": true
+                                    },
+                                    {
+                                        "key": "pictures",
+                                        "type": "file",
+                                        "src": "/D:/istockphoto-1226478926-612x612.jpg"
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/category/updateCategory/638964b74ecaabf7b774b531",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "category",
+                                    "updateCategory",
+                                    "638964b74ecaabf7b774b531"
+                                ]
+                            }
+                        },
+                        "response": []
+                    }
+                ],
+                "id": "215c7ad3-5af6-45d0-845e-5b6d7fb3e6cb"
+            },
+            {
+                "name": "cart",
+                "item": [
+                    {
+                        "name": "addToCart",
+                        "id": "9c6af4e1-7c22-4a92-bac3-4ce2b932404d",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0NzU3NTIsImV4cCI6MTY3MDQ3NjA1Mn0.Tyxm1Z2s7240fK4WMJfaZPFFTNIVDUEUp055drjDBf0",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n   \"cartItems\":{\r\n       \r\n        \"productId\":\"63916f78cdc7f7ab74ee75b8\",\r\n        \"quantity\":1,\r\n        \"price\":330,\r\n        \"categoryId\":\"63894979fd777c4bf53f5aeb\"\r\n        }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/cart/addToCart",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "cart",
+                                    "addToCart"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "increaseQuantitybyOne",
+                        "id": "3d969649-339f-4d06-abf6-37b4105b3b18",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0NzY0MTksImV4cCI6MTY3MDQ3NjcxOX0.c3xwWjNBwjZ9IBzAGD-yBFPbtBxk2fbqqjZHBHs4FcY",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n   \r\n        \r\n   \"cartItems\":{\r\n       \r\n        \"productId\":\"63916f78cdc7f7ab74ee75b8\",\r\n        \"quantity\":1,\r\n        \"price\":330,\r\n        \"categoryId\":\"63894979fd777c4bf53f5aeb\"\r\n        }\r\n\r\n       \r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/cart/increaseQuantity",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "cart",
+                                    "increaseQuantity"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "decreaseQuantitybyOne",
+                        "id": "fb0cb13d-7d88-4762-8622-d4f0ac9d3aaa",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0MTcxMjUsImV4cCI6MTY3MDQxNzQyNX0.uqCL3y2Gq94eKhjIFlvsO97AnS7pNKSXJ3A-3sCzeMU",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "\r\n   {\r\n   \r\n        \r\n   \"cartItems\":{\r\n        \r\n        \"productId\":\"638949a8fd777c4bf53f5af6\",\r\n        \"quantity\":1,\r\n        \"price\":330,\r\n        \"categoryId\":\"63894979fd777c4bf53f5aeb\"\r\n        }\r\n\r\n       \r\n}\r\n",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/cart/decreaseQuantity1",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "cart",
+                                    "decreaseQuantity1"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "deleteSpecificItem",
+                        "id": "247abcd9-2dd6-406f-91ea-5525d67cfa96",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0MTcyMjEsImV4cCI6MTY3MDQxNzUyMX0.YfhYO1HdMave39DuvJmTOD83-N8EvvAp-6Ky3sGjIcg",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "\r\n   {\r\n   \r\n        \r\n   \"productId\":\"63894a52fd777c4bf5306\"\r\n\r\n       \r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/cart/deleteItem",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "cart",
+                                    "deleteItem"
+                                ]
+                            }
+                        },
+                        "response": []
+                    },
+                    {
+                        "name": "deleteAllCartItemss",
+                        "id": "15d191cb-e245-4095-9998-ef7900236e5c",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "method": "POST",
+                            "header": [
+                                {
+                                    "key": "image",
+                                    "value": "",
+                                    "type": "text",
+                                    "disabled": true
+                                },
+                                {
+                                    "key": "authorization",
+                                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzhmMmIwOTkxNzUxOThjZjAwNWQwMzkiLCJpYXQiOjE2NzA0MTcyMjEsImV4cCI6MTY3MDQxNzUyMX0.YfhYO1HdMave39DuvJmTOD83-N8EvvAp-6Ky3sGjIcg",
+                                    "type": "text"
+                                }
+                            ],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "\r\n  ",
+                                "options": {
+                                    "raw": {
+                                        "language": "text"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "localhost:3000/v1/cart/deletewholeCartItems",
+                                "host": [
+                                    "localhost"
+                                ],
+                                "port": "3000",
+                                "path": [
+                                    "v1",
+                                    "cart",
+                                    "deletewholeCartItems"
+                                ]
+                            }
+                        },
+                        "response": []
+                    }
+                ],
+                "id": "15003376-ed56-4b8c-846b-3d219546442f"
+            }
+        ]
+    }
+}

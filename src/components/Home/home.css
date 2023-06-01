@@ -1,0 +1,411 @@
+.awssld {
+  height: 70vh;
+  width: 100%;
+}
+.awssld__bullets {
+  z-index: 2;
+  bottom: 10px !important;
+}
+.awssld__bullets button {
+  background-color: #fb2e86 !important;
+}
+.first {
+  width: 84%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 80px;
+  font-display: initial;
+}
+.h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 53px;
+}
+.shopbtn {
+  color: white;
+  font-size: 15px;
+  background-color: #fb2e86;
+  height: 30px;
+  width: 7rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1px;
+  margin-top: 2rem;
+}
+
+.Fcard {
+  width: 270px;
+  height: 340px;
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 20%);
+  background: #f6f7fb;
+  justify-content: center;
+  margin: 0 20px 30px;
+}
+.Chairs {
+  display: flex;
+  justify-content: center;
+}
+.Fcard-title {
+  font-size: 18px;
+  color: #fb2e86;
+}
+.chair-img {
+  width: 150px;
+  height: 150px;
+}
+.Fcard-body {
+  text-align: center;
+  border-radius: 0px;
+  margin-left: -0.7rem;
+  width: 111%;
+  height: 36%;
+}
+.Fcard-body:hover .body-start {
+  color: white !important;
+}
+.Fcard-body:hover .body-end {
+  color: white !important;
+}
+.body-start:hover {
+  color: white;
+}
+.Fcard:hover .Fcard-body {
+  background-color: #2f1ac4 !important;
+  color: white !important;
+}
+.Fcard:hover .Fcard-body .body-start {
+  color: white !important;
+}
+.Fcard:hover .Fcard-body .body-end {
+  color: white !important;
+}
+
+.top-icons:hover {
+  display: block !important;
+  color: #1389ff !important;
+  word-spacing: 1.5rem !important;
+  padding-top: 1rem !important;
+  height: 2rem !important;
+}
+.View-btn {
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+}
+.vd-btn {
+  background-color: #08d15f;
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  color: white;
+}
+.Fcard:hover .View-btn {
+  opacity: 1 !important;
+}
+.Fcard:hover .top-icons {
+  opacity: 1 !important;
+}
+.top-icons {
+  opacity: 0;
+  color: #1389ff;
+  word-spacing: 1.5rem;
+  padding-top: 1rem;
+  height: 2rem;
+}
+
+.fcard-title {
+  color: #f6f7fb;
+}
+.fcard-text {
+  color: #f6f7fb;
+}
+
+.lcard {
+  padding: 20px;
+  width: 15rem;
+  height: 19rem;
+  border: none;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+  background: #f6f7fb;
+  justify-content: center;
+  position: relative;
+  margin: 0 20px 25px;
+}
+.Categories-card {
+  padding: 20px;
+  width: 15rem;
+  height: 19rem;
+  border: none;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+  background: #f6f7fb;
+  justify-content: center;
+  margin: 0 20px 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.Categories-card:hover .sales {
+  opacity: 1 !important;
+}
+
+.sales {
+  opacity: 0;
+  position: absolute;
+  top: 18px;
+  width: 80px;
+}
+.Categories-card:hover .icons-sales {
+  opacity: 1 !important;
+}
+.icons-sales {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 75px;
+  gap: 12px;
+  color: #2f1ac4;
+}
+.Lcard-img-top {
+  height: 250px;
+  margin-left: 3rem;
+  margin-top: 1.3rem;
+}
+.lcard-img-top {
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin-left: 3rem;
+}
+.lcard-body {
+  color: #151875;
+  justify-content: space-between;
+  display: flex;
+}
+.lcard-title {
+  font-size: 18px;
+}
+.Rprice {
+  color: #fb2e86;
+  text-decoration: line-through;
+}
+.types p {
+  display: flex;
+  justify-content: center;
+}
+.shopexcard-img-top {
+  margin-left: 6.5rem;
+  height: 65px;
+  width: 65px;
+}
+.shopexcard-title {
+  text-align: center;
+  font-size: 25px;
+  color: #151875;
+}
+.shopexcard-text {
+  text-align: center;
+  color: rgba(26, 11, 91, 0.3);
+}
+.shopexcard {
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+  margin: 10px 10px;
+}
+
+.point {
+  color: #acabc3;
+}
+.shopbtnn {
+  color: white;
+  font-size: 15px;
+  background-color: #fb2e86;
+  height: 28px;
+  width: 8rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1px;
+}
+.details {
+  display: flex;
+}
+.Tcard {
+  width: 15rem;
+  height: 18rem;
+  border: none;
+  margin: 0 30px 40px;
+}
+.Tcard-img-top {
+  width: 180px;
+  height: 180px;
+  background-color: #f5f6f8;
+  justify-content: center;
+  display: flex;
+  margin-left: 1rem;
+}
+.Tcard-body {
+  color: #151875;
+  margin-top: 1rem;
+  text-align: center;
+}
+.Bcard {
+  margin: 0 20px;
+}
+.Bcard-body {
+  margin-top: 1.5rem;
+  padding: auto;
+}
+.Bcard-title {
+  color: #151875;
+}
+.Bcard-img-top {
+  float: right;
+}
+.TBcard-body {
+  margin-top: 0.4rem;
+}
+
+.points {
+  color: #b8b8dc;
+  list-style: none;
+}
+
+.newsletter {
+  color: #151875;
+  font-size: 36px;
+  line-height: 155%;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.topbtn {
+  color: white;
+  font-size: 15px;
+  background-color: #fb2e86;
+  width: 8rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 2px;
+}
+.Hcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.Htag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
+
+.blcard {
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+  background: #f6f7fb;
+  margin: 0 30px;
+}
+.blcard-img-top {
+  width: 321px;
+  height: 220px;
+  border-radius: 6px;
+  margin-top: -0.1rem;
+  margin-left: -0.79rem;
+}
+
+.blcard-title {
+  margin-top: 1.5rem;
+  font-size: 18px;
+  color: #151875;
+}
+
+.blcard-text {
+  color: #72718f;
+  font-size: 15px;
+}
+
+.TCcard {
+  width: 15rem;
+  height: 18rem;
+  border: none;
+  margin: 0 10px 40px;
+}
+
+.circle {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 269px;
+  width: 269px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+}
+.topview {
+  font-size: 15px;
+  margin-top: 7.8rem;
+  margin-left: 1.6rem;
+  color: white;
+  background-color: #08d15f;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Hover */
+.LPtag {
+  color: #151875;
+}
+.LPtag:hover {
+  color: #fb2e86;
+  text-decoration: underline;
+}
+
+.discounttag:hover {
+  color: #fb2e86;
+  text-decoration: underline;
+}
+.Rmore {
+  color: #151875;
+  text-decoration: underline;
+}
+.Rmore:hover {
+  color: #fb2e86;
+  text-decoration: underline;
+}
+.moreR {
+  color: #fb2e86;
+  text-decoration: underline;
+}
+.moreR:hover {
+  color: #151875;
+  text-decoration: underline;
+}
+
+.toppurple {
+  width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  .maindiv {
+    width: 647px;
+  }
+}

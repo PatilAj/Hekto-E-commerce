@@ -1,0 +1,240 @@
+.BlogPage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.Child {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+/* Left */
+.Child-Sec1 {
+  /* background-color: chartreuse; */
+  height: 100%;
+  width: 73%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.Child-Sec1-img {
+  background: url("../logo/singleblog-img.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+.Child-Sec1-img2 {
+  background: url("../logo/Unsplash3.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+.Child-Sec1-img3 {
+  background: url("../logo/Unsplash4.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+.Child-Sec1-Ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+}
+.Child-Sec1-li-sa {
+  width: 160px;
+  text-align: center;
+  background: #ffe7f9;
+  border-radius: 2px;
+  margin-right: 2rem;
+}
+.Child-Sec1-li-date {
+  width: 160px;
+  text-align: center;
+  background: #ffece2;
+  border-radius: 2px;
+}
+.Child-Sec1-h2 {
+  width: 100%;
+}
+.Sec1-h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #151875;
+  margin-bottom: 2rem;
+}
+.Sec1-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+.readmore {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151875;
+  margin-bottom: 2.5rem;
+}
+.child-sec1-buttons {
+  gap: 2rem;
+  margin: 0 10% 0 10%;
+}
+.child-btn {
+  width: 32px;
+  height: 25px;
+  border: #fb2ca8;
+  color: white;
+  background: #fb2ca8;
+  border-radius: 2px;
+  margin: 0 20px 0px;
+}
+.childs-btn {
+  width: 32px;
+  height: 25px;
+  border: none;
+  color: #d5c6ed;
+  background: white;
+  border-radius: 2px;
+  margin: 0 20px 10px;
+  border-color: #8a8fb9;
+}
+
+.childs-btn:hover {
+  color: white;
+  border: none;
+  background-color: #fb2ca8;
+}
+/* Right */
+.child-sec2 {
+  /* background-color: slategray; */
+  padding-left: 1rem;
+  height: 100%;
+  width: 27%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sec2-searchbox {
+  margin-top: 0.5rem;
+  left: 1rem;
+}
+.form-control {
+  width: 280px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #bdbdd8;
+  border-radius: 2px;
+}
+.child-sec2-categories {
+  margin-top: 1.5rem;
+}
+.sec2-categories-btn {
+  padding: 0.5rem;
+}
+.child-shpbtn {
+  width: 120px;
+  height: 35px;
+  margin: 3px 5px 10px;
+  color: white;
+  border: none;
+  background: #fb2e86;
+  border-radius: 3px;
+}
+.child-shpbtn:hover {
+  color: white;
+  background: #fb2e86;
+}
+
+.Pinkchild-shpbtn {
+  width: 120px;
+  height: 35px;
+  margin: 3px 5px 10px;
+  color: white;
+  border: none;
+  background: #fb2e86;
+  border-radius: 3px;
+}
+.child-sec2-RecentPost {
+  margin-top: 1.5rem;
+}
+.child-sec2-SaleProduct {
+  margin-top: 1.5rem;
+}
+.Post-img {
+  width: 80%;
+  margin: 0 10px 20px;
+}
+.sec2-SalePost {
+  padding: 0.8rem;
+}
+.child-sec2-OfferProduct {
+  margin: 0 5px;
+  margin-top: 2rem;
+}
+.Offer-img {
+  margin: 0 7px 20px;
+}
+.follow {
+  padding: 1rem;
+}
+
+.child-sec2-tag {
+  width: 100%;
+}
+.child-sec2-follow {
+  margin-top: 1.5rem;
+}
+.child-sec2-tag {
+  margin-top: 1.5rem;
+}
+.sec2-tag {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.tags-list {
+  list-style: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #151875;
+  margin: 0 20px 20px;
+}
+.sec2-headings {
+  font-size: 22px;
+  line-height: 26px;
+  color: #151875;
+}
+
+.BPcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  width: 100%;
+}
+.BPtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}

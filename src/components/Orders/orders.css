@@ -1,0 +1,152 @@
+.OrderCompleted {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+.ordercom {
+  background: #f6f5ff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.ordercom h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #101750;
+  position: relative;
+  margin: 25px;
+  left: 150px;
+  top: 50px;
+}
+
+.ordercom ul {
+  display: flex;
+  position: relative;
+  top: 80px;
+  left: 118px;
+  align-items: center;
+}
+
+.ordercom ul {
+  width: 53%;
+}
+.ordercom li {
+  display: flex;
+  margin: 1%;
+  position: relative;
+  margin-top: -75px;
+  left: -280px;
+}
+
+.clocksec {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.clocksec h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #101750;
+  margin-top: 16rem;
+}
+
+.parent {
+  display: flex;
+  position: relative;
+}
+
+.parentchild1 {
+  position: relative;
+  top: 130px;
+  left: 240px;
+  height: 100px;
+}
+.parentchild2 {
+  position: absolute;
+  top: 145px;
+  left: 262px;
+}
+.parentchild3 {
+  position: absolute;
+  top: 160px;
+  left: 270px;
+}
+
+.clocksecpara {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #8d92a7;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bttn {
+  border: none;
+  background-color: #fb2e86;
+  border-radius: 2px;
+  color: white;
+  height: 3.5rem;
+  width: 15rem;
+}
+
+.checklist {
+  display: flex;
+  justify-content: right;
+  margin-right: 9.5rem;
+  margin-top: 5rem;
+}
+
+.clock {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 12rem;
+  margin-top: -350px;
+}
+
+.vertical_dotted_line {
+  border-left: 1px dotted black;
+  height: 235px;
+  margin-left: 15rem;
+}
+
+.horizontal_dotted_line {
+  border-left: 1px dotted black;
+  width: 70%;
+  margin-left: 15rem;
+  margin-top: -35px;
+}
+
+.logos3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.OCcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.OCtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}

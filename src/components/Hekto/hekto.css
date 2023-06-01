@@ -1,0 +1,221 @@
+.HBig {
+  /* background-color: blanchedalmond; */
+  margin-bottom: 15rem;
+}
+
+.Hekto {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  gap: 0.6rem;
+}
+.Hekto-child-sec1 {
+  background: url("../logo/HektoChildSec1.png");
+  /* background-color: chartreuse; */
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  padding: 3rem;
+  flex-direction: column;
+}
+.Emailhekto {
+  margin-top: 3rem;
+  width: 100%;
+  border: none;
+  color: #c1c8e1;
+  border-bottom: 2px solid #bfc6e0;
+  margin-bottom: 1rem;
+}
+.Email-form-control {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  background: transparent;
+}
+.methods {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #c1c8e1;
+}
+.shopheading {
+  width: 200px;
+  height: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #1d3178;
+}
+.Hekto-child-sec1-shopping {
+  margin-top: 5rem;
+}
+
+.child-sec1-contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.chid-sec1-info {
+  width: 30%;
+  display: flex;
+}
+.child-sec1-account {
+  display: flex;
+  width: 30%;
+}
+
+/* Right */
+
+.Hekto-child-sec2 {
+  /* background-color: slategray; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Hekto-form {
+  margin-top: 2rem;
+}
+.divide {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.Firsthekto {
+  width: 45%;
+  color: #c1c8e1;
+  border: none;
+  border-bottom: 2px solid #bfc6e0;
+}
+.first-form-control {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  background: transparent;
+}
+.Lasthekto {
+  width: 45%;
+  color: #c1c8e1;
+  border: none;
+  border-bottom: 2px solid #bfc6e0;
+}
+.Last-form-control {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  background: transparent;
+}
+
+.Addresshekto {
+  width: 100%;
+  border: none;
+  color: #c1c8e1;
+  border-bottom: 2px solid #bfc6e0;
+  margin-bottom: 2rem;
+}
+.Address-form-control {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+.Countryhekto {
+  width: 45%;
+  color: #c1c8e1;
+  border: none;
+  border-bottom: 2px solid #bfc6e0;
+}
+.Country-form-control {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  background: transparent;
+}
+.Postalhekto {
+  width: 45%;
+  color: #c1c8e1;
+  border: none;
+  border-bottom: 2px solid #bfc6e0;
+}
+.Postal-form-control {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c1c8e1;
+  background: transparent;
+}
+
+.formbtn {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  color: white;
+  background: #fb2e86;
+  border-radius: 2px;
+  margin-top: 2rem;
+}
+.child-sec2-price {
+  background-image: url("../logo/Rectangle46.png");
+  height: 100%;
+  width: 100%;
+  padding-inline: 2rem;
+  padding-top: 2rem;
+  border-radius: 3px;
+  margin-left: 0.6rem;
+}
+.child-sec2-price-totals {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dandi {
+  width: 100%;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.RGreen {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5rem;
+}
+.ticktext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8a91ab;
+}
+.Checkoutbtn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  background: #19d16f;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}

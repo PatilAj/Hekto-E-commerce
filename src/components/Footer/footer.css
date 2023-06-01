@@ -1,0 +1,22 @@
+.footerbar {
+  width: 100.8%;
+  background-color: #e7e4f8;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.li {
+  color: #8a8fb9;
+}
+.li:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.footlinks {
+  color: #8a8fb9;
+  text-decoration: none;
+}
+.footlinks:hover {
+  color: inherit;
+  text-decoration: underline;
+}

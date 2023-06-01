@@ -1,0 +1,185 @@
+.brand {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+/* Left */
+.brand-sec1 {
+  /* background-color: chartreuse; */
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.brandlist-group-item {
+  list-style: none;
+  text-align: justify;
+  margin: 0 0 10px;
+}
+.TickMark {
+  margin-right: 1rem;
+}
+.Rbrandlist-group-item {
+  list-style: none;
+  text-align: justify;
+  display: flex;
+}
+.ratingstars {
+  width: 16px;
+  height: 16px;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+.brandsidebar {
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 30px;
+  margin-left: 1rem;
+  padding: 1rem;
+  text-align: justify;
+  text-decoration: underline;
+  color: #151875;
+}
+.brandform-control {
+  width: 203px;
+  height: 31px;
+  margin-left: 2rem;
+  background: #ffffff;
+  border: 1px solid #bcbddb;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.colorset {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  width: 246px;
+  height: 70px;
+}
+.colorset li {
+  height: 30px;
+  width: 75px;
+}
+
+.colorblue {
+  list-style: url("../logo/Blue.png");
+}
+.colororange {
+  list-style: url("../logo/Orange.png");
+}
+.coloryellow {
+  list-style: url("../logo/Yello.png");
+}
+.colorgreen {
+  list-style: url("../logo/Green.png");
+}
+.colorpurple {
+  list-style: url("../logo/Purple.png");
+}
+.colorskyblue {
+  list-style: url("../logo/SkyBlue.png");
+}
+
+/* Right */
+.brand-sec2 {
+  /* background-color: slategray; */
+  height: 100%;
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.brandcard {
+  padding-inline: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border-color: white;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
+.Brandimg-fluid {
+  height: 100%;
+  width: 100%;
+}
+.brandcard-body {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.brandcard-title {
+  margin-right: 2rem;
+  font-size: 20.8783px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #111c85;
+}
+
+.brandmore-dots {
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  width: 3rem;
+  height: 0.8rem;
+}
+.brandtext-muted {
+  display: flex;
+}
+.brandprice26 {
+  font-size: 15.4609px;
+  line-height: 18px;
+  color: #111c85;
+  margin-right: 1rem;
+}
+.brandprice52 {
+  font-size: 15.4609px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #ff2aaa;
+}
+
+.brandrating {
+  margin-left: 2rem;
+  margin-top: -0.4rem;
+}
+.brandcard-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6696px;
+  line-height: 31px;
+  color: #9295aa;
+}
+.brandcard-smallImg {
+  display: flex;
+  width: 25.23px;
+  height: 25.23px;
+  background: #ffffff;
+  box-shadow: 0px 0px 27.6087px rgba(0, 0, 0, 0.05);
+  /* margin: 0 15px; */
+  gap: 2rem;
+}
+.LSBcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 9rem;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+.LSBtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
+
+@media (max-width: 726px) {
+  .brand {
+    flex-direction: column;
+  }
+  .brand-sec1 {
+    width: 75%;
+  }
+}

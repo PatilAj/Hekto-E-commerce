@@ -1,0 +1,31 @@
+.text {
+  background-color: #7e33e0;
+  height: 40px;
+}
+.container {
+  margin-top: -32px;
+}
+.border-bottom {
+  background-color: white;
+  margin-top: 22px;
+  height: 10px;
+}
+.navbar-nav {
+  margin-left: 4rem;
+}
+.nav-link {
+  color: #0d0e43 !important;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #fb2e86 !important;
+  text-decoration: underline !important;
+}
+.navfirst {
+  justify-content: left;
+  display: flex;
+  background-color: #7e33e0;
+}
+.nav-item {
+  font-size: 16px;
+}

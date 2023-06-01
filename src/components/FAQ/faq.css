@@ -1,0 +1,73 @@
+.General {
+  font-size: 36px;
+  line-height: 30px;
+  color: #1d3178;
+  margin-bottom: 2rem;
+}
+.Que {
+  font-size: 17px;
+  line-height: 30px;
+  color: #1d3178;
+  font-weight: 700;
+}
+
+.Ans {
+  font-size: 16px;
+  line-height: 30px;
+  color: #a1abcc;
+}
+
+.txt1 {
+  width: 445px;
+  height: 50px;
+  left: 1028px;
+  top: 744px;
+  background: #ffffff;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8990b1;
+}
+
+.Msg {
+  width: 445px;
+  height: 197px;
+  left: 1028px;
+  top: 924px;
+  background: #ffffff;
+  border: 1px solid #cdcedc;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8990b1;
+}
+
+.Sendbtn {
+  width: 156px;
+  height: 48px;
+  left: 1028px;
+  top: 1162px;
+  color: white;
+  background: #fb2e86;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 3rem;
+}
+.FAQcontainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.FAQtag {
+  width: 60%;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 5%);
+  background: #f6f7fb;
+}
