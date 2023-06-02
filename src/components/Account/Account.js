@@ -14,28 +14,11 @@ const Account = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  const [modal, setModal] = useState(false);
-
-  const toggleModal = () => {
-    setModal(!modal);
-  };
-
-  if(modal) {
-    document.body.classList.add('active-modal')
-  } else {
-    document.body.classList.remove('active-modal')
-  }
-
-
- 
+  
   useEffect(() => {
     if (localStorage.getItem("accessToken")) {
     }
   },[]);
-  // const userData = JSON.parse(localStorage.getItem('user-Info'));
-  // const productData = {
-  //   userId: userData._id}
     const Login = async (event) => {
       event.preventDefault();
     const user= {email,password}
